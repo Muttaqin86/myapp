@@ -23,7 +23,7 @@ pipeline {
 
                 docker run -d \
                   --name myapp \
-                  -p 4004:4004 \
+                  -p 4004:3000 \
                   myapp
                 '''
             }
