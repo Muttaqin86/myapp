@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
   res.send('CI/CD Jenkins Local Success 🚀')
 })
 
-app.listen(4040, () => {
+app.listen(4040, '0.0.0.0', () => {
   console.log('App running on port 4040')
 })
