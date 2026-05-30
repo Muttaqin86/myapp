@@ -3,8 +3,10 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('GitHub - CI/CD Jenkins Local Success 🚀')
-  res.send('AUTO DEPLOY SUCCESS 🚀')
+  res.send(`
+    <h1>GitHub - CI/CD Jenkins Local Success 🚀</h1>
+    <h2>AUTO DEPLOY SUCCESS 🚀</h2>
+  `)
 })
 
 app.listen(4040, '0.0.0.0', () => {
